@@ -5,11 +5,10 @@ import Layout from "../components/layout";
 function cowin() {
   return (
     <>
-      <Head>
-        <title>2nd Page</title>
-      </Head>
       <Layout title="2ndpage">
-        <h2 className="title">This is Cowin Portal(Updated-2)</h2>
+        <div className="title">
+          <h2>This is Cowin Portal(Updated-2)</h2>
+        </div>
       </Layout>
     </>
   );

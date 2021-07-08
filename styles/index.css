@@ -1,16 +1,23 @@
 body {
   background-color: rgb(255, 255, 255);
 }
+.layout {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: black 2px solid; */
+}
 .nav-bar {
   padding-bottom: 20px;
 }
 .nav-list {
   width: 60%;
+  padding: 0;
   margin: 20px auto;
   max-width: 750px;
   display: flex;
   flex-direction: row;
-  /* border: black solid 2px; */
+  /*  border: black solid 2px; */
   justify-content: space-around;
 }
 .nav-item:hover,
@@ -27,10 +34,31 @@ body {
 
 .title {
   margin: 0 auto;
-
+  /* border: darkblue 2px solid; */
   text-align: center;
 }
-
+.flexbox-container {
+  /* border: brown solid 2px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+}
+.flexbox-item {
+  width: 30%;
+}
+.flexbox-item,
+.flexbox-item > h3 {
+  /* border: green 2px solid; */
+  text-align: center;
+}
+.flexbox-item > p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
 @media screen and (max-width: 600px) {
   .nav-list {
     flex-direction: column;

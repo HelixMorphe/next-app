@@ -15,6 +15,11 @@ function Navbar() {
               <li className="nav-item">Cowin</li>
             </a>
           </Link>
+          <Link href="/gradeup">
+            <a>
+              <li className="nav-item">Gradeup</li>
+            </a>
+          </Link>
         </ul>
       </nav>
     </div>
