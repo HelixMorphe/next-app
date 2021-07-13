@@ -113,6 +113,12 @@ body {
     flex-direction: column;
   }
   .flex-item {
-    width: 95%;
+    width: 100%;
+  }
+  .testbook-container {
+    padding: 1rem;
+  }
+  .feature--section {
+    width: 70%;
   }
 }
