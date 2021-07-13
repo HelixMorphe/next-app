@@ -104,8 +104,9 @@ body {
   .flex-item {
     width: 100%;
   }
-  .testbook-container {
+  .testbook--container {
     padding: 1rem;
+    padding-top: 2rem;
   }
   .feature--section {
     width: 80%;
